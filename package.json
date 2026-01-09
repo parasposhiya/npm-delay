@@ -1,0 +1,36 @@
+{
+  "name": "@parasrp/delay",
+  "version": "2.1.0",
+  "description": "A simple sleep/delay function with support for milliseconds, seconds, minutes, and hours.",
+  "author": "Paras R Poshiya",
+  "keywords": [
+    "sleep",
+    "delay",
+    "wait",
+    "timeout",
+    "pause"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "echo 'No build step yet' && exit 0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasposhiya/npm-delay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/parasposhiya/npm-delay/issues"
+  },
+  "homepage": "https://parasposhiya.github.io/me"
+}
